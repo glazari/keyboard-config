@@ -72,7 +72,7 @@
                         bindings = <
 // |---------------|---------------|---------------|---------------|---------------|---------------|               |---------------|---------------|---------------|---------------|---------------|---------------|
 // | BTCLR         | BT1           | BT2           | BT3           | BT4           | BT5           |               | OUT_USB       | OUT_BLE       | OUT_TOG       |               |               |               |
-     &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                    &kb OUT_USB     &kb OUT_BLE     &kb OUT_TOG     &trans          &trans          &trans
+     &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                    &out OUT_USB    &out OUT_BLE    &out OUT_TOG    &trans          &trans          &trans
 // |---------------|---------------|---------------|---------------|---------------|---------------|               |---------------|---------------|---------------|---------------|---------------|---------------|
 // |               |               |               |               |               |               |               |               |               |               |               |               |               |
      &kp O           &trans          &trans          &trans          &trans          &trans                          &trans          &trans          &trans          &trans          &trans          &trans
